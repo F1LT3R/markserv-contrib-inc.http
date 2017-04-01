@@ -1,6 +1,6 @@
 {
   "name": "markserv-contrib-inc.http",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Markserv plugin to include the body of HTTP requests inside others HTML Files",
   "repository": "git@github.com:f1lt3r/markserv-contrib-inc.http",
   "main": "lib/inc.http.js",
@@ -40,6 +40,7 @@
     ]
   },
   "dependencies": {
+    "chalk": "^1.1.3",
     "request": "^2.81.0"
   }
 }
